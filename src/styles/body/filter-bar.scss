@@ -1,0 +1,122 @@
+@import "../text";
+@import "../colors";
+@import "../const";
+
+$checkbox-width: 20px;
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.filter-bar {
+  width: $width;
+  margin: auto;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.filter-bar__cell {
+  margin-right: 30px;
+
+  img {
+    width: 11px;
+    height: 6px;
+    background: url("../../assets/filter-bar__down-arrow.png");
+  }
+
+  &:hover {
+    img {
+      mask-image: url("../../assets/filter-bar__up-arrow.png");
+    }
+  }
+}
+
+.filter-bar__text {
+  @include text-primary(12px);
+}
+
+.filter-bar__dropdown__button {
+  border: 0px;
+  background: url("../../assets/filter-bar__down-arrow.png") no-repeat;
+}
+
+.filter-bar__checkbox {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+
+  input[type="checkbox"] {
+    @extend .visuallyhidden;
+  }
+
+  label {
+    padding-left: 40px;
+  }
+
+  input[type="checkbox"] + label {
+    position: relative;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      content: " ";
+      display: block;
+      width: $checkbox-width;
+      height: $checkbox-width;
+      border-radius: 5px;
+      border: 2px solid $secondary-color;
+    }
+
+    &:hover:before {
+      background: $secondary-color url("../../assets/checkbox-checked.png") 0
+        0px no-repeat;
+    }
+  }
+
+  input[type="checkbox"]:checked + label {
+    &:before {
+      background: $secondary-color url("../../assets/checkbox-checked.png");
+    }
+  }
+
+  input[type="checkbox"]:checked {
+    &:after {
+      background: $secondary-color url("../../assets/checkbox-checked.png");
+    }
+  }
+}
+
+.filter-bar__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-bar__dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $fill-color;
+  min-width: 170px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2013);
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.filter-bar__dropdown:hover .filter-bar__dropdown-content {
+  display: block;
+}

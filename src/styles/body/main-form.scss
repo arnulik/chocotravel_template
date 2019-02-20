@@ -1,0 +1,28 @@
+@import "../colors";
+@import "../text";
+@import "../const";
+
+.main-form {
+  align-items: flex-left;
+  background: $background-color;
+}
+
+.main-form__grid-header {
+  background-color: $primary-color;
+  width: $width;
+  margin: auto;
+  height: 30px;
+  border-bottom: 1px solid $text-underline-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.main-form__grid-header__text {
+  @include text-secondary(13px);
+  margin-left: 18px;
+  margin-top: 7px;
+  margin-right: 65px;
+  display: flex;
+}

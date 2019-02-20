@@ -1,0 +1,66 @@
+@import "../text";
+@import "../colors";
+@import "../const";
+
+.ticket {
+  width: $width;
+  margin: auto;
+  height: 100px;
+  background-color: $fill-color;
+  border-bottom: 1px solid $underline-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.ticket__cell {
+  margin-left: 18px;
+  margin-top: 18px;
+  margin-right: 18px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ticket__logo {
+  width: 110px;
+  object-fit: contain;
+  margin-top: -42px;
+}
+
+.ticket__text {
+  @include text-primary(12px);
+}
+
+.ticket__timing {
+  @include text-primary(12px);
+  cursor: pointer;
+  text-decoration: underline dotted $text-underline-color;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 8px;
+    height: 4px;
+    vertical-align: middle;
+  }
+}
+
+.ticket__departure-time {
+  @include text-primary(12px);
+  font-weight: bold;
+}
+
+.ticket__button {
+  @include text-secondary(14px);
+  width: 177px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: $secondary-color;
+  border: 0px;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $secondary-color_dark;
+  }
+}

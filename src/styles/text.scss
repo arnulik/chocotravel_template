@@ -1,0 +1,15 @@
+@import "colors";
+
+@mixin text-primary($font-size) {
+  font-family: "Open Sans";
+  color: $text-primary-color;
+  font-size: $font-size;
+  text-align: left;
+}
+
+@mixin text-secondary($font-size) {
+  font-family: "Open Sans";
+  color: $text-secondary-color;
+  font-size: $font-size;
+  text-align: left;
+}

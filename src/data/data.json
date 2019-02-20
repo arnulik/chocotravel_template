@@ -1,0 +1,270 @@
+[
+  {
+    "price": 16500,
+    "flightDuration": "75",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "12:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "13:15",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "DV",
+          "name": "Scat"
+        }
+      }
+    ]
+  },
+  {
+    "price": 17500,
+    "flightDuration": "75",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "12:10",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "13:25",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "KC",
+          "name": "Air Astana"
+        }
+      }
+    ]
+  },
+  {
+    "price": 17770,
+    "flightDuration": "90",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "14:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "15:30",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "Z9",
+          "name": "Scat"
+        }
+      }
+    ]
+  },
+  {
+    "price": 21400,
+    "flightDuration": "75",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "08:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "9:15",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "KC",
+          "name": "Air Astana"
+        }
+      }
+    ]
+  },
+  {
+    "price": 23600,
+    "flightDuration": "95",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "12:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "12:35",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "DV",
+          "name": "Scat"
+        }
+      }
+    ]
+  },
+  {
+    "price": 24500,
+    "flightDuration": "100",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "16:35",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "18:05",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "DV",
+          "name": "Scat"
+        }
+      }
+    ]
+  },
+  {
+    "price": 27000,
+    "flightDuration": "330",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÐºÑÐ¾Ð±Ðµ",
+          "arrivalAirportName": "ÐÐºÑÐ¾Ð±Ðµ"
+        },
+        "departureTime": "23:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "00:45",
+        "arrivalDate": "22 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "KC",
+          "name": "Air Astana"
+        }
+      },
+      {
+        "cities": {
+          "departureCity": "ÐÐºÑÐ¾Ð±Ðµ",
+          "departureAirportName": "ÐÐºÑÐ¾Ð±Ðµ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "03:00",
+        "departureDate": "22 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "04:30",
+        "arrivalDate": "22 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "KC",
+          "name": "Air Astana"
+        }
+      }
+    ]
+  },
+  {
+    "price": 34640,
+    "flightDuration": "110",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "17:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "18:50",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "Z9",
+          "name": "Bek Air"
+        }
+      }
+    ]
+  },
+  {
+    "price": 68300,
+    "flightDuration": "315",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "Ð¨ÑÐ¼ÐºÐµÐ½Ñ",
+          "arrivalAirportName": "Ð¨ÑÐ¼ÐºÐµÐ½Ñ"
+        },
+        "departureTime": "07:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "09:30",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "KC",
+          "name": "Air Astana"
+        }
+      },
+      {
+        "cities": {
+          "departureCity": "Ð¨ÑÐ¼ÐºÐµÐ½Ñ",
+          "departureAirportName": "Ð¨ÑÐ¼ÐºÐµÐ½Ñ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "10:20",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "12:15",
+        "arrivalDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "Z9",
+          "name": "Bek Air"
+        }
+      }
+    ]
+  },
+  {
+    "price": 76700,
+    "flightDuration": "810",
+    "flights": [
+      {
+        "cities": {
+          "departureCity": "ÐÐ»Ð¼Ð°ÑÑ",
+          "departureAirportName": "ÐÐ»Ð¼Ð°ÑÑ",
+          "arrivalCity": "ÐÐ°Ð²Ð»Ð¾Ð´Ð°Ñ",
+          "arrivalAirportName": "ÐÐ°Ð²Ð»Ð¾Ð´Ð°Ñ"
+        },
+        "departureTime": "20:00",
+        "departureDate": "21 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "00:30",
+        "arrivalDate": "22 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "DV",
+          "name": "Scat"
+        }
+      },
+      {
+        "cities": {
+          "departureCity": "ÐÐ°Ð²Ð»Ð¾Ð´Ð°Ñ",
+          "departureAirportName": "ÐÐ°Ð²Ð»Ð¾Ð´Ð°Ñ",
+          "arrivalCity": "ÐÑÑÐ°Ð½Ð°",
+          "arrivalAirportName": "ÐÑÑÐ°Ð½Ð°"
+        },
+        "departureTime": "08:00",
+        "departureDate": "22 Ð½Ð¾ÑÐ±ÑÑ",
+        "arrivalTime": "9:30",
+        "arrivalDate": "22 Ð½Ð¾ÑÐ±ÑÑ",
+        "airline": {
+          "code": "KC",
+          "name": "Air Astana"
+        }
+      }
+    ]
+  }
+]
